@@ -1,0 +1,14 @@
+Kubernates Deployment
+
+Commands to connetct with 1 or more k8s ckuster, prerequisites: awscli and kubectl must be installed on server.
+ 
+ $ kubectl config view
+
+ $ kubectl config current-context
+
+ $ kubectl config use-context suraj
+
+ $ aws eks update-kubeconfig --region region-code --name my-cluster
+  eg: $ aws eks update-kubeconfig --region ap-south-1 --name demo-eks-cluster
+
+ 
